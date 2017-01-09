@@ -34,6 +34,7 @@ function initMap() {
     travelMode: google.maps.TravelMode.WALKING
   };
 
+  //A function to put the markers from the locationlist on the map
   placeMarkers = function() {
 
     for (i = 0; i < locations.length; i++) {
@@ -112,12 +113,4 @@ function initMap() {
 
   })
 
-
-  // marker = new google.maps.Marker({
-  //   position: {
-  //     lat: 52.375791,
-  //     lng: 4.898908
-  //   },
-  //   map: map
-  // })
 }
