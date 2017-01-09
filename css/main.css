@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+}
+
+.map {
+  height: 400px;
+  width: 100%;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+
+.btn-2 {
+  background-color: green;
+  color: white;
+  padding: 5px;
+}

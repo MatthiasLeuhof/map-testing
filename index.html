@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Map Testing</title>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="map"></div>
+
+  <button class="btn">Get Directions</button>
+
+  <!-- <button class="btn-2">Add marker</button> -->
+
+  <form action="index.html" method="post">
+
+    <label for="title">Title</label>
+    <input id="title" required>
+
+    <label for="lat">Latitude</label>
+    <input id="lat" required>
+
+    <label for="lng">Longitude</label>
+    <input id="lng" required>
+
+    <button type="submit" name="button" id="submit" class="btn-2">Add Point</button>
+
+  </form>
+
+  <ol class="location-list">
+
+  </ol>
+
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdla8I2qB3pMzbkaQI0fS8qzn9JPKr_4w&callback=initMap">
+  </script>
+  <script src="js/map-testing.js"></script>
+</body>
+</html>
